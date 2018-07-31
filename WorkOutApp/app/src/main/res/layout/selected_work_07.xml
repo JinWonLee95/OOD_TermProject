@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="홈화면"
+            android:id="@+id/Home"
+            android:layout_gravity="top"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="운동 시간 기록하기"
+            android:id="@+id/input" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/workout07">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/w07_1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:text="1. 허리를 펴고 앉거나 선 자세를 취한다. 왼손을 머리 위로 가로질러 귀 윗부분까지 감싼다." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:text="2. 그리고 왼손에 힘을 주어 머리를 왼쪽으로 당긴다. 반대 쪽도 동일한 방법으로 수행한다." />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/w07_2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:text="3. 다리를 쭉 뻗은 상태로 바닥에 앉는다." />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/w07_3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:text="4. 상체를 곧게 하고 오른쪽 무릎을 구부린 상태로 오른쪽 다리를 왼쪽 다리 위로 겹친다. 오른발은 왼쪽 무릎의 바깥쪽의 바닥에 놓는다." />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/w07_4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:text="5. 상체를 오른쪽으로 들어 왼쪽 팔꿈치를 오른쪽 무릎의 바깥쪽에 놓는다. 오른손 바닥을 둔부에서 30~40cm 뒤쪽 바닥에 위치한 상태로 머리와 어깨를 오른쪽으로 근육의 당김이 느껴질 정도로 틀면서 오른쪽 무릎으로 왼쪽 팔꿈치를 고정시킨다. 반대쪽도 반복한다."/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="홈화면"
+            android:id="@+id/Home"
+            android:layout_gravity="top"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="운동 시간 기록하기"
+            android:id="@+id/input" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/workout06">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/w06_1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:text="1. 이마를 바닥에 대고 엎드려 누운 상태에서 다리를 뒤로 구부려 양손으로 발목이나 발등을 잡는다. 무릎은 골반 너비만큼 벌린다." />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/w06_2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:text="2. 숨 들이마시고 내쉬면서 다리를 들어올리고 이마부터 천천히 상체를 위로 일으켜 세운다. 20~30초간 자세 유지한다." />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/w06_3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:text="3. 처음 자세로 돌아와 편하게 호흡 정리한다." />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

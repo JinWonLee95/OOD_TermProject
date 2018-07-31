@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="홈화면"
+            android:id="@+id/Home"
+            android:layout_gravity="top"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="운동 시간 기록하기"
+            android:id="@+id/input" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/workout10">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/w10_1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:text="1. 검지와 중지로 눈 주위 뼈대를 꼭꼭 눌러준다. 눈동자 위쪽과 아래쪽 모두 천천히 눌러준다." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:text="2. 눈 양쪽 옆 태양혈을 꾹꾹 눌러준다. 처음에 약하게 누르다가 조금씩 세게 누른다. 마지막에는 세게 꾹 눌러준다."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:text="3. 눈썹 안쪽이 끝나는 곳 정명혈을 엄지 손가락으로 눌러준다." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:text="[TIP] 정명혈 - 눈썹의 안쪽 끝 바로 아래 움푹 들어간 곳" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/w10_2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:text="4. 눈을 감은 뒤 손가락을 펴서 눈동자 위를 가볍게 눌러준다." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:text="5. 손바닥을 뜨겁게 비벼서 손바닥으로 눈 위를 덮고 눈 속으로 따뜻한 기운이 들어간다고 생각하면 된다." />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

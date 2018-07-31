@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.3">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>333</x>
+      <y>126</y>
+      <w>261</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Java Class&gt;&gt;
+QuestionListView
+--
+-check_item: int
+--
++onCreate(Bundle savedInstanceState): void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>405</x>
+      <y>252</y>
+      <w>261</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Java Class&gt;&gt;
+WorkoutData
+--
+-checked_item: int
+--
+#onCreate(Bundle savedInstanceState): void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>171</x>
+      <y>522</y>
+      <w>261</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Java Class&gt;&gt;
+WorkOutTime
+--
++time:int
+--
++onCreate(Bundle savedInstanceState): void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>90</x>
+      <y>54</y>
+      <w>135</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>AppCompatActivity</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>630</x>
+      <y>162</y>
+      <w>261</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Java Class&gt;&gt;
+pastData
+--
+--
++onCreate(Bundle savedInstanceState): void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>558</x>
+      <y>36</y>
+      <w>81</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>Activity</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>144</x>
+      <y>72</y>
+      <w>27</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>585</x>
+      <y>54</y>
+      <w>45</w>
+      <h>216</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;30.0;220.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>441</x>
+      <y>54</y>
+      <w>144</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>140.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>612</x>
+      <y>54</y>
+      <w>108</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;100.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>18</x>
+      <y>162</y>
+      <w>297</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Java Class&gt;&gt;
+MainActivity
+--
+-id: Long {composite}
+_-ClassAttribute: Long_
+--
+#onCreate(Bundle savedInstanceState): void
++onCreateOptionsMenu(Menu menu): boolean
++onOptionsItemSelected(MenuItem item): boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>306</x>
+      <y>54</y>
+      <w>297</w>
+      <h>486</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>310.0;10.0;10.0;520.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>306</x>
+      <y>468</y>
+      <w>189</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>190.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>423</x>
+      <y>396</y>
+      <w>261</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Java Class&gt;&gt;
+SelectedWork
+--
+-checked_item: int
+--
+#onCreate(Bundle savedInstanceState): void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>531</x>
+      <y>324</y>
+      <w>27</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+</diagram>

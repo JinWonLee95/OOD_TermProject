@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="홈화면"
+            android:id="@+id/Home"
+            android:layout_gravity="top"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="운동 시간 기록하기"
+            android:id="@+id/input" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/workout08">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/w08_1"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/w08_2"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/w08_3"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/w08_4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:text="1. 의자에 앉은 상태로 상체를 꼿꼿이 세워 양손 깍지를 낀 후 정수리 부위에 얹고 내쉬는 호흡에 팔꿈치를 가슴 쪽으로 가져가 눌러준다. 이 자세를 20초간 유지해준다. "/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:text="2. 그런 후 다시 허리를 곧게 펴고 고개를 한 쪽으로 돌린다. 고개를 돌린 방향에 있는 손은 정수리에 올려 45도 방향으로 머리를 내려주고 반대쪽 손은 뒷짐을 진다. 이 자세도 20초간 유지해준 후, 반대편도 동일하게 진행한다. "/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="홈화면"
+            android:id="@+id/Home"
+            android:layout_gravity="top"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="운동 시간 기록하기"
+            android:id="@+id/input" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/workout05">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/w05_1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:text="_앞으로 목 굽히기_" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:text="1. 허리를 펴고 앉거나 선 자세를 취한 후 양손을 깍지 끼고 정수리 아래 뒤통수에 댄다." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:text="2. 목 뒷덜미의 근육에 신전감(늘여서 펴지는 느낌)이 느껴지도록 양손을 아래쪽으로 눌러 턱이 가슴에 닿게 한다." />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/w05_2"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:text="_머리잡고 목 당기기_" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:text="1.허리를 펴고 앉거나 선 자세를 취한다. 오른손을 머리위로 가로질러 왼쪽 뒤통수의 귀 뒤쪽에 걸도록 한다." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:text="2.오른손에 힘을 주어 머리를 약 45 각도로 당기도록 한다. " />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/w05_3"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:text="_깍지 끼고 등 말기_" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:text="1.서거나 앉은 자세에서 손등이 바깥쪽을 향하게 하고 양손에 깍지를 낀다. " />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:text=" 2.양팔을 동시에 앞으로 쭉 뻗으며 등이 넓게 펴지는 느낌이 들도록한다. 등의 상부와 견갑대의 근육들이 신전이 느껴질 때까지 시행한다." />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

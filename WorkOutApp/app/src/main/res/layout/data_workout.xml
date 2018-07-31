@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton1"
+                android:src="@drawable/w01_m"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton3"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/w03_m"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton5"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/w05_m"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton7"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/w07_m"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton9"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/w09_m"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton2"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/w02_m"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton4"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/w04_m"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton6"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/w06_m"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton8"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/w08_m"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton10"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/w10_m"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kr.ac.cnu.jin.workoutapp" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".QuestionListView"> </activity>
+        <activity android:name=".WorkoutData"></activity>
+        <activity android:name=".pastData"></activity>
+        <activity android:name=".SelectedWork"></activity>
+        <activity android:name=".SelectedWork02"></activity>
+        <activity android:name=".SelectedWork03"></activity>
+        <activity android:name=".SelectedWork04"></activity>
+        <activity android:name=".SelectedWork05"></activity>
+        <activity android:name=".SelectedWork06"></activity>
+        <activity android:name=".SelectedWork07"></activity>
+        <activity android:name=".SelectedWork08"></activity>
+        <activity android:name=".SelectedWork09"></activity>
+        <activity android:name=".SelectedWork10"></activity>
+        <activity android:name=".WorkOutTime"></activity>
+    </application>
+
+</manifest>
